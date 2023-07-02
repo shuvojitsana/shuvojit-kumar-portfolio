@@ -24,6 +24,9 @@
 .hover-img:hover {
     transform: scale(1.3);
 }
+.projects-img{
+    scroll-behavior: smooth;
+}
 
 .profile-img{
     
