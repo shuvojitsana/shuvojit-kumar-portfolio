@@ -1,0 +1,38 @@
+.styles-module_blinking__9VXRT {
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-name: styles-module_blink__rqfaf;
+
+
+}
+
+.styles-module_blinkingCursor__yugAC {
+    color: inherit;
+    font: inherit;
+    left: 3px;
+    line-height: inherit;
+    opacity: 1;
+    position: relative;
+    top: 0;
+}
+
+@media screen and (max-width: 576px){
+    .hero-content{
+        flex-direction: none;
+      width: auto;
+      height: auto;
+    }
+    .hero-content img{
+        width: auto;
+    }
+    .w-\[560px\]{
+        width: auto;
+    }
+    .w-\[1020px\] {
+        width: auto;
+    }
+}
+
+
+
+/* styles-module_blink__rqfaf */
