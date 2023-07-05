@@ -25,7 +25,12 @@
     transform: scale(1.3);
 }
 .projects-img{
+    background-size: cover;
     scroll-behavior: smooth;
+    background-position: top;
+    transition: 5s ease-in-out;
+  
+   
 }
 
 .profile-img{

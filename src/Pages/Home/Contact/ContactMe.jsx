@@ -9,7 +9,7 @@ const ContactMe = () => {
             <div className="hero min-h-screen w-[1020px] mx-auto bg-[#2c2a52] rounded-3xl">
                 <div className="hero-content w-full flex-col lg:flex-row">
                     <div data-aos="fade-right" data-aos-duration="2000">
-                        <img src="https://scontent.fjsr16-1.fna.fbcdn.net/v/t39.30808-6/337253868_237222782047444_3365393927783489028_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEqiMyerGSBcEOpxg-JChM_00KVQS5x_H3TQpVBLnH8fcUt1kR5DySRTi5tptjvEF2EUIDsANUbKiQaTIUnCaRN&_nc_ohc=uYIB5_eDTrEAX90R4Q2&_nc_zt=23&_nc_ht=scontent.fjsr16-1.fna&oh=00_AfBVvDOjCv8QYmw1VEsOJvbfztIW5Z8WGtDtu26N7jwW8g&oe=649EC2C5" className="max-w-[280px] rounded-lg shadow-2xl" />
+                        <img src="https://ibb.co/KsrXMzv" className="max-w-[280px] rounded-lg shadow-2xl" />
                         <h2 className="text-xl font-bold mt-2 text-white">Find me on a E-mail <br></br>
                             <span className="text-1xl ">shuvojitsanabd2004@gmail.com</span>
                         </h2>

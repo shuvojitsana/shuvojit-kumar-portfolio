@@ -11,8 +11,8 @@ const Projects = () => {
             <h1 className="text-3xl mt-20 mb-10 text-white font-bold text-center">My Recent Projects</h1>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mx-20">
 
-                <div data-aos="fade-left" data-aos-duration="2000" className="card  bg-transparent text-gray-100 shadow-xl h-full">
-                    <figure className="w-[100%] h-[200px]"><img className=" projects-img" src={img1} alt="Shoes" />
+                <div data-aos="fade-left" data-aos-duration="2000" className="card  bg-transparent text-gray-100 shadow-xl h-full projects-img">
+                    <figure className="w-[100%] h-[200px]"><img className=" " src={img1} alt="Shoes" />
                     </figure>
                     <div className="card-body justify-end">
                         <h1 className="text-2xl font-bold">Summer Camp School</h1>
