@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const About = () => {
     return (
         <div className="bg-black">
-            <div className="hero min-h-[520px] w-full  mt-10">
+            <div className="hero min-h-[520px] w-full  pt-10">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-10 items-center justify-center profile-img">
                     <div >
                         <img data-aos="fade-left" data-aos-duration="1000"  src="https://i.ibb.co/TB04Z4Y/IMG-20221107-114551-Bokeh.jpg" className="max-w-[280px] rounded-lg shadow-2xl" />

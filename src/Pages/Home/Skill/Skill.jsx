@@ -4,7 +4,7 @@ const Skill = () => {
     return (
 
         <div>
-            <div>   <h1 className="text-center mt-16 mb-8 text-4xl  text-white font-bold uppercase ">Skills </h1>
+            <div>   <h1 className="text-center pt-16 pb-8 text-4xl  text-white font-bold uppercase ">Skills </h1>
             </div>
             <div data-aos="zoom-in"
                 data-aos-duration="3000" className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-20 gap-8 ">

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
     return (
         <div>
-            <h1 className="text-3xl mt-20 mb-10 text-white font-bold text-center">My Recent Projects</h1>
+            <h1 className="text-3xl pt-20 pb-10 text-white font-bold text-center">My Recent Projects</h1>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mx-20">
 
                 <div data-aos="fade-left" data-aos-duration="2000" className="card  bg-transparent text-gray-100 shadow-xl h-full projects-img">
@@ -16,18 +16,18 @@ const Projects = () => {
                     </figure>
                     <div className="card-body justify-end">
                         <h1 className="text-2xl font-bold">Summer Camp School</h1>
-                        <div className="flex gap-4">
-                            <span>
-                                <Link href="https://github.com/shuvojitsana/summer-camp-client" target="blank">
-                                    <button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " >
-                                        Client</button></Link></span>
-                            <span>
-                                <Link href="https://github.com/shuvojitsana/summer-camp-server" target="blank">
-                                    <button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border   text-white ">
-                                        Server</button></Link></span><span>
-                                <Link href="https://summer-camp-client-8f6ae.web.app/" target="blank"><button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  e text-white " >Demo</button>
-                                </Link>
-                            </span>
+                        <div className="flex gap-4 pt-8">
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://github.com/shuvojitsana/summer-camp-client/" target="_blank">Client</Link>
+                           </div>
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://github.com/shuvojitsana/summer-camp-server/" target="_blank">Server</Link>
+                           </div>
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://summer-camp-client-8f6ae.web.app/" target="_blank">Demo</Link>
+                           </div>
+                            
+                                
                         </div>
                         <div className="card-actions justify-end">
                             <Link to="/projectsId3">
@@ -42,18 +42,18 @@ const Projects = () => {
                     </figure>
                     <div className="card-body justify-end">
                         <h1 className="text-2xl font-bold">Toys Sports Master</h1>
-                        <div className="flex gap-4">
-                            <span>
-                                <Link href="https://github.com/shuvojitsana/toy-sports-master-client" target="blank">
-                                    <button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " >
-                                        Client</button></Link></span>
-                            <span>
-                                <Link href="https://github.com/shuvojitsana/toys-sports-master-server" target="blank">
-                                    <button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border   text-white ">
-                                        Server</button></Link></span><span>
-                                <Link href="https://toys-sports-master.web.app/" target="blank"><button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  e text-white " >Demo</button>
-                                </Link>
-                            </span>
+                        <div className="flex gap-4 pt-8">
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://github.com/shuvojitsana/toy-sports-master-client/" target="_blank">Client</Link>
+                           </div>
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://github.com/shuvojitsana/toys-sports-master-server/" target="_blank">Server</Link>
+                           </div>
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://toys-sports-master.web.app/" target="_blank">Demo</Link>
+                           </div>
+                            
+                                
                         </div>
                         <div className="card-actions justify-end">
                             <Link to="/projectsId">
@@ -68,18 +68,18 @@ const Projects = () => {
                     </figure>
                     <div className="card-body justify-end">
                         <h1 className="text-2xl font-bold">Master Chef</h1>
-                        <div className="flex gap-4">
-                            <span>
-                                <Link href="https://github.com/shuvojitsana/chef-recipe-hunter-client" target="blank">
-                                    <button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " >
-                                        Client</button></Link></span>
-                            <span>
-                                <Link href="https://github.com/shuvojitsana/chef-recipe-hunter-server" target="blank">
-                                    <button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border   text-white ">
-                                        Server</button></Link></span><span>
-                                <Link href="https://chef-recipe-hunter-clien-7ba81.web.app" target="blank"><button className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  e text-white " >Demo</button>
-                                </Link>
-                            </span>
+                        <div className="flex gap-4 pt-8">
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://github.com/shuvojitsana/chef-recipe-hunter-client/" target="_blank">Client</Link>
+                           </div>
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://github.com/shuvojitsana/chef-recipe-hunter-server/" target="_blank">Server</Link>
+                           </div>
+                           <div>
+                            <Link className="p-2 rounded-lg mt-5 bg-purple-800 hover:bg-inherit hover:border  text-white  " to="https://chef-recipe-hunter-clien-7ba81.web.app/" target="_blank">Demo</Link>
+                           </div>
+                            
+                                
                         </div>
                         <div className="card-actions justify-end">
                             <Link to="/projectsId2">

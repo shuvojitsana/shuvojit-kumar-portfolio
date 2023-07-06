@@ -5,7 +5,7 @@ import "./ContactMe.css"
 const ContactMe = () => {
     return (
         <div >
-            <h1 className="text-4xl text-center mt-20 mb-8 font-bold text-white">Contact With Me</h1>
+            <h1 className="text-4xl text-center pt-20 mb-8 font-bold text-white">Contact With Me</h1>
             <div className="hero min-h-screen w-[1020px] mx-auto bg-[#2c2a52] rounded-3xl">
                 <div className="hero-content w-full flex-col lg:flex-row">
                     <div data-aos="fade-right" data-aos-duration="2000">
